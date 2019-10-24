@@ -20,10 +20,19 @@ The requirements are:
 - Use a bundler to minify, compress scripts & styles if you wish.
 
 ## Installing Star Wars task
-- git clone https://github.com/kristalis/triadswapi.git
-- cd triadswapi
-- composer install
-- php artisan serve
+- $git clone https://github.com/kristalis/triadswapi.git
+- $cd triadswapi
+- $composer install
+- $php artisan serve
+
+## Additional info included
+- used GuzzleHttp
+- Configured php.ini file to include cacert.pem
+- [Download the certificate](https://curl.haxx.se/ca/cacert.pem)
+- Rename the cacert.pem file into curl-ca-bundle.crt
+- Copy the file into path/to/xampp/apache/bin
+- Restart apache
+
 
 ## About Laravel
 
