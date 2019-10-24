@@ -19,6 +19,12 @@ The requirements are:
 - Create the directory structure to your preference
 - Use a bundler to minify, compress scripts & styles if you wish.
 
+## Installing Star Wars task
+- git clone https://github.com/kristalis/triadswapi.git
+- cd triadswapi
+- composer install
+- php artisan serve
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
