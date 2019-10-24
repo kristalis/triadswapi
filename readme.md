@@ -7,6 +7,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Star Wars React task
+A simple Laravel app that fetches character information from SWAPI (https://swapi.co/people) and renders it to the page using React
+The requirements are:
+- Display a list of characters (first page only, no need for paging)
+- Character details should include, name, height, hair colour, eye colour, skin colour, birth year and gender
+- Works in Chrome and on small viewports
+- Locally cached API data from swapi
+- Server side rendering
+- Accessible via '/' in the browser
+- Create the directory structure to your preference
+- Use a bundler to minify, compress scripts & styles if you wish.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
