@@ -27,10 +27,10 @@ The requirements are:
 
 ## Additional info included
 - used GuzzleHttp
-- Configured php.ini file to include cacert.pem
-- [Download the certificate](https://curl.haxx.se/ca/cacert.pem)
+- [Download the cacert.pem certificate](https://curl.haxx.se/ca/cacert.pem)
 - Rename the cacert.pem file into curl-ca-bundle.crt
-- Copy the file into path/to/xampp/apache/bin
+- Add to php.ini [curl.cainfo="C:/xampp/apache/bin/curl-ca-bundle.crt"]
+- Copy the curl-ca-bundle.crt file into path/to/xampp/apache/bin
 - Restart apache
 
 
